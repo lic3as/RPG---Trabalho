@@ -20,6 +20,21 @@ public class levels extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel19 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -42,6 +57,66 @@ public class levels extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel19);
+        jLabel19.setBounds(350, 110, 60, 60);
+
+        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel34);
+        jLabel34.setBounds(630, 290, 60, 60);
+
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel33);
+        jLabel33.setBounds(560, 290, 60, 60);
+
+        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel32);
+        jLabel32.setBounds(490, 290, 60, 60);
+
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel31);
+        jLabel31.setBounds(420, 290, 60, 60);
+
+        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel30);
+        jLabel30.setBounds(350, 290, 60, 60);
+
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel29);
+        jLabel29.setBounds(630, 200, 60, 60);
+
+        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel28);
+        jLabel28.setBounds(560, 200, 60, 60);
+
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel27);
+        jLabel27.setBounds(490, 200, 60, 60);
+
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel26);
+        jLabel26.setBounds(420, 200, 60, 60);
+
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel25);
+        jLabel25.setBounds(350, 200, 70, 60);
+
+        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel24);
+        jLabel24.setBounds(630, 110, 60, 60);
+
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel23);
+        jLabel23.setBounds(560, 110, 60, 60);
+
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel22);
+        jLabel22.setBounds(490, 110, 60, 60);
+
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel21);
+        jLabel21.setBounds(420, 110, 70, 60);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/box1.png"))); // NOI18N
         getContentPane().add(jLabel2);
@@ -109,10 +184,20 @@ public class levels extends javax.swing.JFrame {
         jLabel18.setBounds(550, 20, 240, 60);
 
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/menu.png"))); // NOI18N
+        jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel17MouseClicked(evt);
+            }
+        });
         getContentPane().add(jLabel17);
         jLabel17.setBounds(20, 390, 180, 60);
 
         jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/aaa.png"))); // NOI18N
+        jLabel20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel20MouseClicked(evt);
+            }
+        });
         getContentPane().add(jLabel20);
         jLabel20.setBounds(590, 390, 180, 60);
 
@@ -122,6 +207,16 @@ public class levels extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
+      dispose();
+      new Inicio().setVisible(true);
+    }//GEN-LAST:event_jLabel17MouseClicked
+
+    private void jLabel20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel20MouseClicked
+    dispose();
+    new level1().setVisible(true);
+    }//GEN-LAST:event_jLabel20MouseClicked
 
     public static void main(String args[]) {
 
@@ -144,7 +239,7 @@ public class levels extends javax.swing.JFrame {
         
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new levels().setVisible(true);
+            new levels().setVisible(true);
             }
         });
     }
@@ -160,9 +255,24 @@ public class levels extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
