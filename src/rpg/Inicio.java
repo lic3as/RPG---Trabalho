@@ -41,7 +41,7 @@ public class Inicio extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(610, 300, 150, 50);
+        jLabel3.setBounds(570, 270, 190, 80);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/PONTUAÇÃO.png"))); // NOI18N
         jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -73,7 +73,7 @@ public class Inicio extends javax.swing.JFrame {
 
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
         dispose();
-        new levels().setVisible(true);
+        new Levels().setVisible(true);
        
     }//GEN-LAST:event_jLabel3MouseClicked
 
