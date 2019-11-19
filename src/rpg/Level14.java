@@ -1,6 +1,9 @@
 
 package rpg;
 
+import java.applet.Applet;
+import java.applet.AudioClip;
+import java.net.URL;
 import javax.swing.JOptionPane;
 
 public class Level14 extends javax.swing.JFrame {
@@ -12,12 +15,29 @@ public class Level14 extends javax.swing.JFrame {
         //largura, altura//
         setResizable(false);
         setLocationRelativeTo(this);
+        
+            //----LABELS----//
+        levelup.setVisible(false);
+        gameover.setVisible(false);
     }
 
+     public void moeda(){
+        URL som = getClass().getResource("../sounds/Coin Sound.wav");
+        AudioClip play = Applet.newAudioClip(som);
+        play.play();
+    }
+     
+    public void gameover(){
+        URL som = getClass().getResource("../sounds/GAME OVER.wav");
+        AudioClip play = Applet.newAudioClip(som);
+        play.play();
+    }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        levelup = new javax.swing.JLabel();
+        gameover = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -25,6 +45,14 @@ public class Level14 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+
+        levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
+        getContentPane().add(levelup);
+        levelup.setBounds(540, 30, 220, 130);
+
+        gameover.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\gameover2.gif")); // NOI18N
+        getContentPane().add(gameover);
+        gameover.setBounds(530, 80, 250, 60);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fases/fase14.png"))); // NOI18N
         getContentPane().add(jLabel2);
@@ -56,12 +84,16 @@ public class Level14 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
+        moeda();
+        levelup.setVisible(true);
         JOptionPane.showMessageDialog(null,"Isso mesmo. Bowser saiu e você conseguiu resgatar a princesa, \n ainda precisam conseguir sair do castelo e derrotar Bowser. Boa sorte!");
         dispose();
         new Level15().setVisible(true);
     }//GEN-LAST:event_jLabel3MouseClicked
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+        gameover();
+        gameover.setVisible(true);
         JOptionPane.showMessageDialog(null,"Calma... Antes de tudo, tente salvar a princesa \npois se perder essa luta eles podem fazer coisas piores com ela. GAME OVER.");
         dispose();
         new Inicio().setVisible(true);
@@ -104,9 +136,11 @@ public class Level14 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel gameover;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel levelup;
     // End of variables declaration//GEN-END:variables
 }

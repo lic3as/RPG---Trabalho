@@ -1,6 +1,9 @@
 
 package rpg;
 
+import java.applet.Applet;
+import java.applet.AudioClip;
+import java.net.URL;
 import javax.swing.JOptionPane;
 
 public class Level6 extends javax.swing.JFrame {
@@ -12,12 +15,30 @@ public class Level6 extends javax.swing.JFrame {
         //largura, altura//
         setResizable(false);
         setLocationRelativeTo(this);
+                       
+            //----LABELS----//
+        levelup.setVisible(false);
+        gameover.setVisible(false);
     }
 
+     public void moeda(){
+        URL som = getClass().getResource("../sounds/Coin Sound.wav");
+        AudioClip play = Applet.newAudioClip(som);
+        play.play();
+    }
+     
+    public void gameover(){
+        URL som = getClass().getResource("../sounds/GAME OVER.wav");
+        AudioClip play = Applet.newAudioClip(som);
+        play.play();
+    }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        mario = new javax.swing.JLabel();
+        levelup = new javax.swing.JLabel();
+        gameover = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -25,6 +46,18 @@ public class Level6 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+
+        mario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mario1.gif"))); // NOI18N
+        getContentPane().add(mario);
+        mario.setBounds(40, 330, 120, 130);
+
+        levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
+        getContentPane().add(levelup);
+        levelup.setBounds(540, 30, 220, 130);
+
+        gameover.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\gameover2.gif")); // NOI18N
+        getContentPane().add(gameover);
+        gameover.setBounds(530, 80, 250, 60);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fases/fase6.png"))); // NOI18N
         getContentPane().add(jLabel2);
@@ -56,12 +89,16 @@ public class Level6 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
+        gameover();
+        gameover.setVisible(true);
         JOptionPane.showMessageDialog(null,"Essa não foi uma boa ideia! Mesmo que ele tenha te dado informações, \nnão quer dizer que realmente vá te ajudar, afinal Donkey Kong é um vilão. GAME OVER.");
         dispose();
         new Inicio().setVisible(true);
     }//GEN-LAST:event_jLabel3MouseClicked
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+        moeda();
+        levelup.setVisible(true);
         JOptionPane.showMessageDialog(null, "Isso mesmo! Pode ser que demore um pouco mas é bem melhor \ntrabalhar com um irmão e companheiro de confiança. Fique atento!");
         dispose();
         new Level7().setVisible(true);
@@ -104,9 +141,12 @@ public class Level6 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel gameover;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel levelup;
+    private javax.swing.JLabel mario;
     // End of variables declaration//GEN-END:variables
 }
