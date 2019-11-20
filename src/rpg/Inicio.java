@@ -4,13 +4,14 @@ package rpg;
 import java.applet.Applet;
 import java.applet.AudioClip;
 import java.net.URL;
+import javax.swing.JOptionPane;
 
-public class Inicio extends javax.swing.JFrame {
+public final class Inicio extends javax.swing.JFrame {
 
     public Inicio() {
         initComponents();
         setTitle("Super Mario - Deluxe");
-        setSize(790,480);
+        setSize(790,490);
         //largura, altura//
         setResizable(false);
         setLocationRelativeTo(this);
@@ -22,51 +23,60 @@ public class Inicio extends javax.swing.JFrame {
         play.play();
     }
 
+   
+    public void começar(){
+        URL som = getClass().getResource("../sounds/Let's GO.wav");
+        AudioClip play = Applet.newAudioClip(som);
+        play.play();
+    }
+    
+    
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        sair = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/JOGAR.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/jogar.png"))); // NOI18N
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel3MouseClicked(evt);
             }
         });
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(570, 270, 190, 80);
+        jLabel3.setBounds(570, 260, 190, 80);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/PONTUAÇÃO.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/SOBRE.png"))); // NOI18N
         jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel2MouseClicked(evt);
             }
         });
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(610, 350, 150, 50);
+        jLabel2.setBounds(570, 330, 200, 70);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/SAIR.png"))); // NOI18N
-        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+        sair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/sair.png"))); // NOI18N
+        sair.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel4MouseClicked(evt);
+                sairMouseClicked(evt);
             }
         });
-        getContentPane().add(jLabel4);
-        jLabel4.setBounds(610, 400, 150, 50);
+        getContentPane().add(sair);
+        sair.setBounds(570, 400, 190, 60);
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mario.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/ggg.png"))); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(790, 480));
         jLabel1.setMinimumSize(new java.awt.Dimension(790, 480));
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(-10, -10, 800, 490);
+        jLabel1.setBounds(0, -10, 790, 490);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -74,6 +84,7 @@ public class Inicio extends javax.swing.JFrame {
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
         dispose();
         new Levels().setVisible(true);
+        começar();     
        
     }//GEN-LAST:event_jLabel3MouseClicked
 
@@ -81,9 +92,13 @@ public class Inicio extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel2MouseClicked
 
-    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+    private void sairMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sairMouseClicked
+        int opc = JOptionPane.showConfirmDialog(null,"Deseja sair?");
+        
+        if(opc==0){
         System.exit(0);
-    }//GEN-LAST:event_jLabel4MouseClicked
+        }
+    }//GEN-LAST:event_sairMouseClicked
 
     public static void main(String args[]) {
 
@@ -116,6 +131,6 @@ public class Inicio extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel sair;
     // End of variables declaration//GEN-END:variables
 }
