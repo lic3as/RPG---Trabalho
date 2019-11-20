@@ -28,7 +28,7 @@
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/jogar.png"/>
+          <Image iconType="3" name="/images/jogar_1.png"/>
         </Property>
       </Properties>
       <Events>
@@ -58,7 +58,7 @@
     <Component class="javax.swing.JLabel" name="sair">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/sair.png"/>
+          <Image iconType="3" name="/images/sair_1.png"/>
         </Property>
       </Properties>
       <Events>

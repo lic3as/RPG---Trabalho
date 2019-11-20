@@ -3,6 +3,8 @@ package rpg;
 
 import java.applet.Applet;
 import java.applet.AudioClip;
+import java.io.File;
+import java.io.IOException;
 import java.net.URL;
 import javax.swing.JOptionPane;
 
@@ -44,7 +46,7 @@ public final class Inicio extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/jogar.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/jogar_1.png"))); // NOI18N
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel3MouseClicked(evt);
@@ -62,7 +64,7 @@ public final class Inicio extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(570, 330, 200, 70);
 
-        sair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/sair.png"))); // NOI18N
+        sair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/sair_1.png"))); // NOI18N
         sair.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 sairMouseClicked(evt);

@@ -15,7 +15,7 @@ public class Levels extends javax.swing.JFrame {
         setResizable(false);
         setLocationRelativeTo(this);
     }
-
+    
       public void somentrada(){
         URL som = getClass().getResource("../sounds/entrada.wav");
         AudioClip play = Applet.newAudioClip(som);
@@ -28,20 +28,20 @@ public class Levels extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel34 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel31 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
-        jLabel29 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
+        x16 = new javax.swing.JLabel();
+        x15 = new javax.swing.JLabel();
+        x13 = new javax.swing.JLabel();
+        x12 = new javax.swing.JLabel();
+        x11 = new javax.swing.JLabel();
+        x10 = new javax.swing.JLabel();
+        x9 = new javax.swing.JLabel();
+        x8 = new javax.swing.JLabel();
+        x7 = new javax.swing.JLabel();
+        x6 = new javax.swing.JLabel();
+        x5 = new javax.swing.JLabel();
+        x4 = new javax.swing.JLabel();
+        x3 = new javax.swing.JLabel();
+        x2 = new javax.swing.JLabel();
         missao1 = new javax.swing.JLabel();
         missao2 = new javax.swing.JLabel();
         missao3 = new javax.swing.JLabel();
@@ -64,61 +64,61 @@ public class Levels extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel34);
-        jLabel34.setBounds(630, 290, 60, 60);
+        x16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x16);
+        x16.setBounds(630, 290, 60, 60);
 
-        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel33);
-        jLabel33.setBounds(560, 290, 60, 60);
+        x15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x15);
+        x15.setBounds(560, 290, 60, 60);
 
-        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel32);
-        jLabel32.setBounds(490, 290, 60, 60);
+        x13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x13);
+        x13.setBounds(490, 290, 60, 60);
 
-        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel31);
-        jLabel31.setBounds(420, 290, 60, 60);
+        x12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x12);
+        x12.setBounds(420, 290, 60, 60);
 
-        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel30);
-        jLabel30.setBounds(350, 290, 60, 60);
+        x11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x11);
+        x11.setBounds(350, 290, 60, 60);
 
-        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel29);
-        jLabel29.setBounds(630, 200, 60, 60);
+        x10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x10);
+        x10.setBounds(630, 200, 60, 60);
 
-        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel28);
-        jLabel28.setBounds(560, 200, 60, 60);
+        x9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x9);
+        x9.setBounds(560, 200, 60, 60);
 
-        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel27);
-        jLabel27.setBounds(490, 200, 60, 60);
+        x8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x8);
+        x8.setBounds(490, 200, 60, 60);
 
-        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel26);
-        jLabel26.setBounds(420, 200, 60, 60);
+        x7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x7);
+        x7.setBounds(420, 200, 60, 60);
 
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel25);
-        jLabel25.setBounds(350, 200, 70, 60);
+        x6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x6);
+        x6.setBounds(350, 200, 70, 60);
 
-        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel24);
-        jLabel24.setBounds(630, 110, 60, 60);
+        x5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x5);
+        x5.setBounds(630, 110, 60, 60);
 
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel23);
-        jLabel23.setBounds(560, 110, 60, 60);
+        x4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x4);
+        x4.setBounds(560, 110, 60, 60);
 
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel22);
-        jLabel22.setBounds(490, 110, 60, 60);
+        x3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x3);
+        x3.setBounds(490, 110, 60, 60);
 
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
-        getContentPane().add(jLabel21);
-        jLabel21.setBounds(420, 110, 70, 60);
+        x2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(x2);
+        x2.setBounds(420, 110, 70, 60);
 
         missao1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/box1.png"))); // NOI18N
         missao1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -288,73 +288,59 @@ public class Levels extends javax.swing.JFrame {
     }//GEN-LAST:event_missao1MouseClicked
 
     private void missao2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao2MouseClicked
-         dispose();
-        new Level2().setVisible(true);
+    
     }//GEN-LAST:event_missao2MouseClicked
 
     private void missao3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao3MouseClicked
-        dispose();
-        new Level3().setVisible(true);
+    
     }//GEN-LAST:event_missao3MouseClicked
 
     private void missao4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao4MouseClicked
-         dispose();
-        new Level4().setVisible(true);
+    
     }//GEN-LAST:event_missao4MouseClicked
 
     private void missao5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao5MouseClicked
-         dispose();
-        new Level5().setVisible(true);
+    
     }//GEN-LAST:event_missao5MouseClicked
 
     private void missao6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao6MouseClicked
-        dispose();
-        new Level6().setVisible(true);
+      
     }//GEN-LAST:event_missao6MouseClicked
 
     private void missao7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao7MouseClicked
-        dispose();
-        new Level7().setVisible(true);
+   
     }//GEN-LAST:event_missao7MouseClicked
 
     private void missao8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao8MouseClicked
-       dispose();
-        new Level8().setVisible(true);
+    
     }//GEN-LAST:event_missao8MouseClicked
 
     private void missao9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao9MouseClicked
-        dispose();
-        new Level9().setVisible(true);
+    
     }//GEN-LAST:event_missao9MouseClicked
 
     private void missao10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao10MouseClicked
-         dispose();
-        new Level10().setVisible(true);
+    
     }//GEN-LAST:event_missao10MouseClicked
 
     private void missao11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao11MouseClicked
-        dispose();
-        new Level11().setVisible(true);
+    
     }//GEN-LAST:event_missao11MouseClicked
 
     private void missao12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao12MouseClicked
-         dispose();
-        new Level12().setVisible(true);
+     
     }//GEN-LAST:event_missao12MouseClicked
 
     private void missao13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao13MouseClicked
-         dispose();
-        new Level13().setVisible(true);
+    
     }//GEN-LAST:event_missao13MouseClicked
 
     private void missao14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao14MouseClicked
-         dispose();
-        new Level14().setVisible(true);
+    
     }//GEN-LAST:event_missao14MouseClicked
 
     private void missao15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_missao15MouseClicked
-         dispose();
-        new Level15().setVisible(true);
+     
     }//GEN-LAST:event_missao15MouseClicked
 
     public static void main(String args[]) {
@@ -387,20 +373,6 @@ public class Levels extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel missao1;
     private javax.swing.JLabel missao10;
     private javax.swing.JLabel missao11;
@@ -416,5 +388,19 @@ public class Levels extends javax.swing.JFrame {
     private javax.swing.JLabel missao7;
     private javax.swing.JLabel missao8;
     private javax.swing.JLabel missao9;
+    private javax.swing.JLabel x10;
+    private javax.swing.JLabel x11;
+    private javax.swing.JLabel x12;
+    private javax.swing.JLabel x13;
+    private javax.swing.JLabel x15;
+    private javax.swing.JLabel x16;
+    private javax.swing.JLabel x2;
+    private javax.swing.JLabel x3;
+    private javax.swing.JLabel x4;
+    private javax.swing.JLabel x5;
+    private javax.swing.JLabel x6;
+    private javax.swing.JLabel x7;
+    private javax.swing.JLabel x8;
+    private javax.swing.JLabel x9;
     // End of variables declaration//GEN-END:variables
 }

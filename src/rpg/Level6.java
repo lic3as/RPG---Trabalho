@@ -15,7 +15,6 @@ public class Level6 extends javax.swing.JFrame {
         //largura, altura//
         setResizable(false);
         setLocationRelativeTo(this);
-                       
             //----LABELS----//
         levelup.setVisible(false);
         gameover.setVisible(false);
