@@ -36,6 +36,10 @@ public class Level14 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        mario = new javax.swing.JLabel();
+        bowser = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         levelup = new javax.swing.JLabel();
         gameover = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -45,6 +49,23 @@ public class Level14 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+
+        mario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mario1.gif"))); // NOI18N
+        getContentPane().add(mario);
+        mario.setBounds(230, 290, 120, 130);
+
+        bowser.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/20000.gif"))); // NOI18N
+        bowser.setToolTipText("");
+        getContentPane().add(bowser);
+        bowser.setBounds(540, 240, 110, 90);
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/jaula.png"))); // NOI18N
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(630, 170, 110, 170);
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/princesapeach2.gif"))); // NOI18N
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(650, 220, 70, 110);
 
         levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
         getContentPane().add(levelup);
@@ -76,7 +97,7 @@ public class Level14 extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(270, 130, 260, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cenario1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/castle.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -5, 800, 480);
 
@@ -136,11 +157,15 @@ public class Level14 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel bowser;
     private javax.swing.JLabel gameover;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel levelup;
+    private javax.swing.JLabel mario;
     // End of variables declaration//GEN-END:variables
 }

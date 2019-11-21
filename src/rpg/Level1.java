@@ -41,13 +41,13 @@ public final class Level1 extends javax.swing.JFrame {
 
         pronto = new javax.swing.JLabel();
         entradagif = new javax.swing.JLabel();
-        levelup = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        gameover = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        levelup = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         background = new javax.swing.JLabel();
-        levelup1 = new javax.swing.JLabel();
-        gameover = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -66,15 +66,23 @@ public final class Level1 extends javax.swing.JFrame {
         getContentPane().add(entradagif);
         entradagif.setBounds(0, 0, 800, 450);
 
-        levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
-        getContentPane().add(levelup);
-        levelup.setBounds(550, 50, 240, 110);
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bowser&peach.png"))); // NOI18N
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(0, 200, 220, 270);
+
+        gameover.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\gameover2.gif")); // NOI18N
+        getContentPane().add(gameover);
+        gameover.setBounds(540, 80, 250, 60);
 
         jLabel3.setBackground(new java.awt.Color(51, 51, 255));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fases/FASE1.png"))); // NOI18N
         jLabel3.setText("jLabel3");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(10, 10, 520, 100);
+
+        levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
+        getContentPane().add(levelup);
+        levelup.setBounds(550, 50, 240, 110);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/respostas/resposta da 1.png"))); // NOI18N
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -94,18 +102,10 @@ public final class Level1 extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(270, 130, 250, 50);
 
-        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cenario1.png"))); // NOI18N
+        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cena1.png"))); // NOI18N
         background.setText("jLabel2");
         getContentPane().add(background);
         background.setBounds(0, -5, 800, 480);
-
-        levelup1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
-        getContentPane().add(levelup1);
-        levelup1.setBounds(540, 30, 220, 130);
-
-        gameover.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\gameover2.gif")); // NOI18N
-        getContentPane().add(gameover);
-        gameover.setBounds(540, 80, 250, 60);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -161,10 +161,10 @@ public final class Level1 extends javax.swing.JFrame {
     private javax.swing.JLabel entradagif;
     private javax.swing.JLabel gameover;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel levelup;
-    private javax.swing.JLabel levelup1;
     private javax.swing.JLabel pronto;
     // End of variables declaration//GEN-END:variables
 }

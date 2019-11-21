@@ -40,6 +40,7 @@ public class Level8 extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         jList1 = new javax.swing.JList<>();
+        jLabel7 = new javax.swing.JLabel();
         bro = new javax.swing.JLabel();
         mario = new javax.swing.JLabel();
         coisaverde = new javax.swing.JLabel();
@@ -60,18 +61,22 @@ public class Level8 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\personagens\\seta11.gif")); // NOI18N
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(540, 290, 90, 100);
+
         bro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/2000.gif"))); // NOI18N
         bro.setText("jLabel7");
         getContentPane().add(bro);
-        bro.setBounds(560, 300, 170, 100);
+        bro.setBounds(470, 320, 170, 100);
 
         mario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mario1.gif"))); // NOI18N
         getContentPane().add(mario);
-        mario.setBounds(210, 210, 120, 130);
+        mario.setBounds(290, 220, 120, 130);
 
         coisaverde.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\personagens\\green.gif")); // NOI18N
         getContentPane().add(coisaverde);
-        coisaverde.setBounds(690, 360, 120, 130);
+        coisaverde.setBounds(520, 380, 120, 130);
 
         levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
         getContentPane().add(levelup);
@@ -103,7 +108,7 @@ public class Level8 extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(270, 130, 260, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cenario1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cena3.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -5, 800, 480);
 
@@ -124,6 +129,7 @@ public class Level8 extends javax.swing.JFrame {
         bro.setVisible(true);
         mario.setVisible(false);
         coisaverde.setVisible(false);
+        jLabel7.setVisible(false);
         JOptionPane.showMessageDialog(null,"Você encontrou Luigi com seu uniforme verde, \nele disse que também estava a sua procura e irá ajudar na missão. Continuem...");
         dispose();
         
@@ -175,6 +181,7 @@ public class Level8 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JList<String> jList1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel levelup;

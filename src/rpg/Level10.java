@@ -19,6 +19,9 @@ public class Level10 extends javax.swing.JFrame {
             //----LABELS----//
         levelup.setVisible(false);
         gameover.setVisible(false);
+        LUIGI1.setVisible(false);
+        mario1.setVisible(false);
+        
     }
 
      public void moeda(){
@@ -36,6 +39,12 @@ public class Level10 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel7 = new javax.swing.JLabel();
+        LUIGI1 = new javax.swing.JLabel();
+        mario1 = new javax.swing.JLabel();
+        LUIGI = new javax.swing.JLabel();
+        mario = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         levelup = new javax.swing.JLabel();
         gameover = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -45,6 +54,30 @@ public class Level10 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\personagens\\seta11.gif")); // NOI18N
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(220, 150, 90, 100);
+
+        LUIGI1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/LUIG1.gif"))); // NOI18N
+        getContentPane().add(LUIGI1);
+        LUIGI1.setBounds(160, 310, 120, 130);
+
+        mario1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mario1.gif"))); // NOI18N
+        getContentPane().add(mario1);
+        mario1.setBounds(170, 250, 120, 130);
+
+        LUIGI.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/LUIG1.gif"))); // NOI18N
+        getContentPane().add(LUIGI);
+        LUIGI.setBounds(10, 310, 120, 130);
+
+        mario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mario1.gif"))); // NOI18N
+        getContentPane().add(mario);
+        mario.setBounds(70, 310, 120, 130);
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/tijolos.png"))); // NOI18N
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(60, 240, 240, 40);
 
         levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
         getContentPane().add(levelup);
@@ -76,7 +109,7 @@ public class Level10 extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(270, 130, 260, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cenario1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cena4.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -5, 800, 480);
 
@@ -94,10 +127,15 @@ public class Level10 extends javax.swing.JFrame {
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
         moeda();
+        LUIGI1.setVisible(true);
+        mario1.setVisible(true);
+        LUIGI.setVisible(false);
+        mario.setVisible(false);
         levelup.setVisible(true);
         JOptionPane.showMessageDialog(null,"Muito bem! Luigi é mais alto e te segurou para conseguir subir. \nVocês conseguiram achar a estrela e agora estão mais fortes! Sigam em frente...");
         dispose();
         new Level11().setVisible(true);
+        
         
     }//GEN-LAST:event_jLabel4MouseClicked
 
@@ -138,11 +176,17 @@ public class Level10 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel LUIGI;
+    private javax.swing.JLabel LUIGI1;
     private javax.swing.JLabel gameover;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel levelup;
+    private javax.swing.JLabel mario;
+    private javax.swing.JLabel mario1;
     // End of variables declaration//GEN-END:variables
 }

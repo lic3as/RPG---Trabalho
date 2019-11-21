@@ -20,7 +20,7 @@ public final class Inicio extends javax.swing.JFrame {
     public void sominicio(){
         URL som = getClass().getResource("../sounds/Super Mario som.wav");
         AudioClip play = Applet.newAudioClip(som);
-        play.play();
+        play.loop();
     }
 
    
@@ -89,7 +89,8 @@ public final class Inicio extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel3MouseClicked
 
     private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
-        // TODO add your handling code here:
+        dispose();
+        new Sobre1().setVisible(true);
     }//GEN-LAST:event_jLabel2MouseClicked
 
     private void sairMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sairMouseClicked

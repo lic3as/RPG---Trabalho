@@ -28,6 +28,7 @@ public class Levels extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel35 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
@@ -63,6 +64,10 @@ public class Levels extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+
+        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
+        getContentPane().add(jLabel35);
+        jLabel35.setBounds(350, 110, 70, 60);
 
         jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/x.png"))); // NOI18N
         getContentPane().add(jLabel34);
@@ -401,6 +406,7 @@ public class Levels extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel missao1;
     private javax.swing.JLabel missao10;
     private javax.swing.JLabel missao11;

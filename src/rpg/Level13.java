@@ -92,7 +92,7 @@ public class Level13 extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fases/fase13.png"))); // NOI18N
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(10, 10, 520, 100);
+        jLabel2.setBounds(20, 10, 520, 100);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/respostas/resposta 13.png"))); // NOI18N
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {

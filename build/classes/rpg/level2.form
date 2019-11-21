@@ -45,7 +45,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="630" y="230" width="90" height="100"/>
+          <AbsoluteConstraints x="620" y="210" width="90" height="100"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -57,7 +57,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="200" y="320" width="120" height="130"/>
+          <AbsoluteConstraints x="180" y="270" width="120" height="140"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -99,7 +99,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="610" y="300" width="120" height="120"/>
+          <AbsoluteConstraints x="600" y="280" width="120" height="140"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -130,7 +130,7 @@
     <Component class="javax.swing.JLabel" name="background">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/cenario1.png"/>
+          <Image iconType="3" name="/images/cena1.png"/>
         </Property>
       </Properties>
       <Constraints>

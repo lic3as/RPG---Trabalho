@@ -37,6 +37,7 @@ public class Level5 extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
         levelup = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         gameover = new javax.swing.JLabel();
@@ -50,7 +51,11 @@ public class Level5 extends javax.swing.JFrame {
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mario1.gif"))); // NOI18N
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(200, 320, 120, 130);
+        jLabel6.setBounds(210, 310, 120, 130);
+
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\personagens\\seta11.gif")); // NOI18N
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(580, 140, 90, 100);
 
         levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
         getContentPane().add(levelup);
@@ -58,7 +63,7 @@ public class Level5 extends javax.swing.JFrame {
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/donkeykong.gif"))); // NOI18N
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(560, 240, 250, 220);
+        jLabel5.setBounds(560, 170, 250, 220);
 
         gameover.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\gameover2.gif")); // NOI18N
         getContentPane().add(gameover);
@@ -86,7 +91,7 @@ public class Level5 extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(270, 130, 260, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cenario1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/forest.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -5, 800, 480);
 
@@ -143,6 +148,7 @@ public class Level5 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel levelup;
     // End of variables declaration//GEN-END:variables
 }

@@ -11,7 +11,7 @@ public class Level15 extends javax.swing.JFrame {
     public Level15() {
         initComponents();
         setTitle("Super Mario - Last level");
-        setSize(790,480);
+        setSize(790,484);
         //largura, altura//
         setResizable(false);
         setLocationRelativeTo(this);
@@ -19,6 +19,7 @@ public class Level15 extends javax.swing.JFrame {
             //----LABELS----//
         levelup.setVisible(false);
         gameover.setVisible(false);
+        jLabel8.setVisible(false);
     }
 
     
@@ -37,6 +38,10 @@ public class Level15 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel8 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         levelup = new javax.swing.JLabel();
         gameover = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -46,6 +51,24 @@ public class Level15 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/lovw.png"))); // NOI18N
+        jLabel8.setText("jLabel8");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(590, 290, 190, 160);
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/princesapeach2.gif"))); // NOI18N
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(700, 290, 70, 110);
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mario1.gif"))); // NOI18N
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(240, 280, 120, 140);
+
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\personagens\\xx.gif")); // NOI18N
+        jLabel5.setText("jLabel5");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(490, 270, 130, 120);
 
         levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
         getContentPane().add(levelup);
@@ -77,7 +100,7 @@ public class Level15 extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(270, 130, 260, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cenario1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cenario23.gif"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -5, 800, 480);
 
@@ -95,6 +118,10 @@ public class Level15 extends javax.swing.JFrame {
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
         moeda();
         levelup.setVisible(true);
+        jLabel8.setVisible(true);
+        jLabel7.setVisible(false);
+        jLabel5.setVisible(false);
+        jLabel6.setVisible(false);
         JOptionPane.showMessageDialog(null,"Mesmo que possa perder a luta, você mostrou que tem coragem e para sua sorte, \nLuigi chegou para te ajudar! VocÊs conseguiram! \nPARABÉNS!!!");
         dispose();
         new Victory().setVisible(true);
@@ -139,6 +166,10 @@ public class Level15 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel levelup;
     // End of variables declaration//GEN-END:variables
 }

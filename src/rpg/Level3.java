@@ -36,6 +36,7 @@ public class Level3 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel5 = new javax.swing.JLabel();
         mario = new javax.swing.JLabel();
         levelup = new javax.swing.JLabel();
         gameover = new javax.swing.JLabel();
@@ -47,9 +48,13 @@ public class Level3 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\personagens\\seta11.gif")); // NOI18N
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(400, 90, 90, 100);
+
         mario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mario1.gif"))); // NOI18N
         getContentPane().add(mario);
-        mario.setBounds(370, 320, 120, 130);
+        mario.setBounds(300, 170, 120, 130);
 
         levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
         getContentPane().add(levelup);
@@ -61,7 +66,7 @@ public class Level3 extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fases/fase3.png"))); // NOI18N
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(10, 10, 520, 100);
+        jLabel2.setBounds(10, 350, 520, 100);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/respostas/resposta da 3 B.png"))); // NOI18N
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -70,7 +75,7 @@ public class Level3 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(10, 130, 260, 50);
+        jLabel3.setBounds(20, 290, 260, 50);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/respostas/resposta da 3.png"))); // NOI18N
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -79,9 +84,9 @@ public class Level3 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(260, 130, 260, 50);
+        jLabel4.setBounds(270, 290, 260, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cenario1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cena2.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -5, 800, 480);
 
@@ -138,6 +143,7 @@ public class Level3 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel levelup;
     private javax.swing.JLabel mario;
     // End of variables declaration//GEN-END:variables

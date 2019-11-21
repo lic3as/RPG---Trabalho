@@ -37,6 +37,7 @@ public class Level4 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel5 = new javax.swing.JLabel();
         mario = new javax.swing.JLabel();
         levelup = new javax.swing.JLabel();
         diddykong = new javax.swing.JLabel();
@@ -49,9 +50,13 @@ public class Level4 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\personagens\\seta11.gif")); // NOI18N
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(700, 160, 70, 100);
+
         mario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mario1.gif"))); // NOI18N
         getContentPane().add(mario);
-        mario.setBounds(0, 320, 120, 130);
+        mario.setBounds(470, 310, 120, 130);
 
         levelup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fffff.gif"))); // NOI18N
         getContentPane().add(levelup);
@@ -59,7 +64,7 @@ public class Level4 extends javax.swing.JFrame {
 
         diddykong.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/diddy-kong.gif"))); // NOI18N
         getContentPane().add(diddykong);
-        diddykong.setBounds(560, 170, 110, 100);
+        diddykong.setBounds(700, 240, 70, 100);
 
         gameover.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pedro Lucas\\Desktop\\RPG MARIO\\GIFS\\gameover2.gif")); // NOI18N
         getContentPane().add(gameover);
@@ -87,7 +92,7 @@ public class Level4 extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(10, 10, 520, 100);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cenario1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cena3.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, -5, 800, 480);
 
@@ -145,6 +150,7 @@ public class Level4 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel levelup;
     private javax.swing.JLabel mario;
     // End of variables declaration//GEN-END:variables
